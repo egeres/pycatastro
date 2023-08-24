@@ -1,4 +1,3 @@
-# coding=utf-8
 import requests
 import xmltodict
 
@@ -10,7 +9,7 @@ except Exception as e:
     __version__ = 'unknown'
 
 
-class PyCatastro(object):
+class PyCatastro:
     base_url = "http://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC"
 
     @classmethod
